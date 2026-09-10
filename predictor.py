@@ -91,6 +91,12 @@ inputs = {
     'DBIL': dbil
 }
 
+with st.expander("ℹ️ Data Privacy & Disclaimer"):
+    st.markdown("""
+- All input data are processed locally and in real time for prediction only; **no data are collected, stored, or transmitted**, and all entries are discarded upon closing the page.
+- All values shown are simulated demonstration data and do not correspond to any actual patient.
+- This tool is intended **solely for academic research and demonstration purposes** and must not be used as a basis for clinical diagnosis or treatment decisions.
+""")
 # ==================== Prediction ====================
 st.divider()
 if st.button("🔍 Predict", type="primary"):
