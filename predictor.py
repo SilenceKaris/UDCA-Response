@@ -15,8 +15,8 @@ MODEL_FEATURE_ORDER = ['ALP', 'Stages', 'ALBI', 'GGT', 'C3', 'D_D', 'DBIL']
 SHAP_LABELS = ['ALP', 'Stages', 'ALBI', 'GGT', 'C3', 'D_D', 'DBIL']
 
 # ==================== Page Setup ====================
-st.set_page_config(page_title="Poor UDCA Response Prediction", layout="wide")
-st.title("Risk Prediction of Poor UDCA Response")
+st.set_page_config(page_title="Incomplete UDCA Response Prediction", layout="wide")
+st.title("Risk Prediction of Incomplete UDCA Response")
 
 # ==================== Load Model ====================
 @st.cache_resource
